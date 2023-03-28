@@ -1,0 +1,55 @@
+public class Main {
+    public static void main(String[] args) {
+        // parte 1, if
+        int numerolf = (49);
+
+        if (numerolf > 0) {
+            System.out.println("numero positivo");
+        } else if (numerolf < 0) {
+            System.out.println("numero negativo");
+        } else {
+            System.out.println(" el numero es 0...");
+        }
+        // parte 2 while
+        int numeroWhile = -10;
+
+        while (numeroWhile < 3) {
+            System.out.println(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+        }
+        // parte 3 Do while
+        int numero = 2;
+
+        do{
+            System.out.println(numero);
+            numero = numero -1;
+        } while (numero > 2);
+
+        // parte 3 for
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor +1) {
+            System.out.println(numeroFor);
+        }
+
+        // parte 4 Switch Case
+        var estacion = "Primavera";
+
+        switch (estacion){
+            case "Verano":
+                System.out.println("es Verano");
+
+            case "Otono":
+                System.out.println("es Otono");
+
+            case "Invierno":
+                System.out.println("es Invierno");
+
+            case "Primavera":
+                System.out.println("es Primavera");
+                break;
+            default:
+                System.out.println("no es una estacion");
+        }
+    }
+
+    }
+
